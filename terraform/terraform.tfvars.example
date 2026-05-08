@@ -1,0 +1,9 @@
+# Copy this to terraform.tfvars and fill in real values
+# NEVER commit terraform.tfvars to git (add to .gitignore)
+
+region      = "us-east-1"
+project     = "myapp"
+environment = "dev"
+db_name     = "appdb"
+db_user     = "admin"
+db_password = "shortbust123#"   # use a strong password
